@@ -12,7 +12,7 @@ const imagePath = 'digital1.jpg'; // Replace with the actual path to your image
     WebkitTextFillColor: 'transparent',
     WebkitBackgroundClip: 'text',
   };
-  const centerDiv = {
+  const adjustDiv = {
     position: 'fixed',
     top: '50%',
     left: '50%',
@@ -20,22 +20,22 @@ const imagePath = 'digital1.jpg'; // Replace with the actual path to your image
     zIndex: '1',
   };
   return (
-    <div className='flex flex-col mt-9' style={centerDiv}>
+    <div className='flex flex-col mt-9' style={adjustDiv}>
         <div className='flex justify-start absolute mt-[70px] text-gray-800 text-[40px]  font-medium leading-125 tracking-wider'>
             Manage
         </div>
         
-        <div className=''>
-            <h1 className='font-poppins text-[334px] font-bold  uppercase' style={myStyles}>digital</h1>
+        <div className='w-full'>
+            <h1 className='font-poppins font-third text-[334px] font-bold  uppercase' style={myStyles}>digital</h1>
         </div>
 
         <div className='flex justify-end absolute mt-[380px] ml-[850px] text-gray-800 text-[40px]  font-medium leading-125 tracking-wider'>
             Signage with Ease
         </div>
 
-        <div className='flex gap-5 mt-[90px]'>
+        <div className='flex items-center gap-5 mt-[90px]'>
             
-                <p className='text-gray-400 text-[30px] leading-150 tracking-tighter'>The ultimate solution to streamline your signage operations</p>
+                <p className='text-[#4D5053] font-normal text-[30px] leading-150 tracking-tighter'>The ultimate solution to streamline your signage operations</p>
                 
                 <div className=' flex items-center text-center justify-center w-[225.163px] h-[59px] p-[31.306px 57.796px] gap-[12.041px] border-[1.204px] border-orange-500'>
                     <button className='text-orange-500 text-[21.673px] font-semibold leading-125 tracking-wider'>Schedule my Demo</button>

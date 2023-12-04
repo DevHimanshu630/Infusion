@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      primary: 'DM Serif Display',
+      secondary: 'Jost',
+      third: 'Poppins',
+    },
   },
   plugins: [],
 }
