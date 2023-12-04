@@ -13,10 +13,11 @@ const imagePath = 'digital1.jpg'; // Replace with the actual path to your image
     WebkitBackgroundClip: 'text',
   };
   const centerDiv = {
-    position: 'absolute',
+    position: 'fixed',
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
+    zIndex: '1',
   };
   return (
     <div className='flex flex-col mt-9' style={centerDiv}>
@@ -36,7 +37,7 @@ const imagePath = 'digital1.jpg'; // Replace with the actual path to your image
             
                 <p className='text-gray-400 text-[30px] leading-150 tracking-tighter'>The ultimate solution to streamline your signage operations</p>
                 
-                <div className=' flex items-center text-center justify-center w-[225.163px] h-[59px] p-[31.306px 57.796px] gap-[12.041px] border-[1.204px] border-orange-500 shadow-lg'>
+                <div className=' flex items-center text-center justify-center w-[225.163px] h-[59px] p-[31.306px 57.796px] gap-[12.041px] border-[1.204px] border-orange-500'>
                     <button className='text-orange-500 text-[21.673px] font-semibold leading-125 tracking-wider'>Schedule my Demo</button>
                 </div>
                 <div className=' flex items-center text-center justify-center w-[225.163px] h-[59px] p-[31.306px 57.796px] gap-[12.041px] border-[1.204px] bg-[#FF6500]'>

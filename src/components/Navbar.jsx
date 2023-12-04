@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Navbar() {
+    
   return (
     <div className='flex items-center justify-around w-full mt-9'>
         <div className=''>
